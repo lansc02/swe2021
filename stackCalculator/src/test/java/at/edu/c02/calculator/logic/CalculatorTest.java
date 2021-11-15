@@ -49,7 +49,7 @@ public class CalculatorTest {
 		calc.push(2);
 		double result = calc.perform(Operation.div);
 
-		assertEquals(3, result, 0);
+		assertEquals(2, result, 0);
 
 	}
 
